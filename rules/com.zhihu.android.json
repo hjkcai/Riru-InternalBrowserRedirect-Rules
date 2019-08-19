@@ -1,0 +1,15 @@
+{
+  "tag": "Zhihu",
+  "authors": "tongls",
+  "rules": [
+      {
+          "tag": "default",
+          "url-source": "intent://data",
+          "url-filter": {
+              "extra-key": "url",
+              "ignore-url": ".*zhihu\\.com.*",
+              "force-url": ".*link\\.zhihu\\.com.*"
+          }
+      }
+  ]
+}
